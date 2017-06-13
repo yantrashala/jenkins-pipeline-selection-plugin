@@ -9,9 +9,9 @@
         <version>2.17</version>
         <relativePath/>
     </parent>
-    <groupId>io.jenkins.blueocean.plugins</groupId>
-    <artifactId>sapient-plugin</artifactId>
-    <version>1.0-SNAPSHOT</version>
+    
+    <artifactId>jenkins-pipeline-selection-plugin</artifactId>
+    <version>0.0.1-SNAPSHOT</version>
     <packaging>hpi</packaging>
 
     <properties>
@@ -36,9 +36,9 @@
         <javadoc.exec.goal>javadoc-no-fork</javadoc.exec.goal>
     </properties>
 
-    <name>Sapient BitBucket Plugin</name>
-    <description>Integration with Bitbucket</description>
-    <url>https://wiki.jenkins-ci.org/display/JENKINS/TODO+Plugin</url>
+    <name>Jenkins Pipeline Selection Plugin</name>
+    <description>Jenkins BlueOcean Plugin to allow user to select from a collection of pre-configured tech stack based pipelines</description>
+    <url>https://wiki.jenkins-ci.org/display/JENKINS/jenkins-pipeline-selection-plugin</url>
 
     <!-- The default licence for Jenkins OSS Plugins is MIT. Substitute for the applicable one if needed. -->
 
